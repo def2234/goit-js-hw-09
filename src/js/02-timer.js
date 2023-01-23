@@ -3,13 +3,13 @@ import 'flatpickr/dist/flatpickr.min.css';
 import Notiflix from 'notiflix';
 import 'notiflix/dist/notiflix-3.2.6.min.css';
 
-buttonEl = document.querySelector('button[data-start]');
-inputEl = document.querySelector('#datetime-picker');
+const buttonEl = document.querySelector('button[data-start]');
+const inputEl = document.querySelector('#datetime-picker');
 
-spanElDays = document.querySelector('[data-days]');
-spanElHours = document.querySelector('[data-hours]');
-spanElMinutes = document.querySelector('[data-minutes]');
-spanElSeconds = document.querySelector('[data-seconds]');
+const spanElDays = document.querySelector('[data-days]');
+const spanElHours = document.querySelector('[data-hours]');
+const spanElMinutes = document.querySelector('[data-minutes]');
+const spanElSeconds = document.querySelector('[data-seconds]');
 
 const options = {
   enableTime: true,

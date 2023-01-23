@@ -1,6 +1,6 @@
-btnStartEl = document.querySelector('button[data-start]');
-btnStopEl = document.querySelector('button[data-stop]');
-bodyEl = document.querySelector('body');
+const btnStartEl = document.querySelector('button[data-start]');
+const btnStopEl = document.querySelector('button[data-stop]');
+const bodyEl = document.querySelector('body');
 
 btnStartEl.addEventListener('click', onClickStart);
 btnStopEl.addEventListener('click', onClickStop);

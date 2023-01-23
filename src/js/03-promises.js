@@ -1,11 +1,12 @@
 import Notiflix from 'notiflix';
 import 'notiflix/dist/notiflix-3.2.6.min.css';
 
-(delayEl = document.forms[0].delay),
-  (stepEl = document.forms[0].step),
-  (amountEl = document.forms[0].amount),
-  (submitEl = document.querySelector('button[type=submit]')),
-  submitEl.addEventListener('click', onBtnClick);
+const delayEl = document.forms[0].delay;
+const stepEl = document.forms[0].step;
+const amountEl = document.forms[0].amount;
+
+const submitEl = document.querySelector('button[type=submit]');
+submitEl.addEventListener('click', onBtnClick);
 
 function onBtnClick(e) {
   e.preventDefault();
